@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/nav_header_bg">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_self_head"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/person_default_icon" />
+
+            <ImageView
+                android:id="@+id/iv_self_sex"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/sex_female"
+                android:layout_alignBottom="@+id/iv_self_head"
+                android:layout_alignRight="@+id/iv_self_head" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_self_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_back"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+             />
+
+        <ImageView
+            android:id="@+id/iv_self_edit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/mode_edit"
+            />
+
+        <TextView
+            android:id="@+id/tv_self_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="喔哦"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/WHITE"
+            android:textSize="20sp"/>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/WHITE"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="关注"/>
+                <TextView
+                    android:id="@+id/tv_self_watch"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:text="0"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="粉丝"/>
+                <TextView
+                    android:id="@+id/tv_self_follower"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:text="0"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:text="感谢"/>
+
+                <TextView
+                    android:id="@+id/tv_self_thanks"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:text="0"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/WHITE"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center_vertical"
+                    android:text="大学："/>
+                <TextView
+                    android:id="@+id/tv_self_school"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical"
+                    android:text="杭州电子科技大学"/>
+            </LinearLayout>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:background="#868686"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center_vertical"
+                    android:text="学院："/>
+                <TextView
+                    android:id="@+id/tv_self_college"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical"
+                    android:text="电子信息学院"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/WHITE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp"
+                    android:text="发布求助："/>
+                <TextView
+                    android:id="@+id/tv_self_issue"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical|right"
+                    android:textSize="18sp"
+                    android:text="0"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/go_on"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:background="#868686"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="18sp"
+                    android:text="帮助过的："/>
+                <TextView
+                    android:id="@+id/tv_self_helped"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical|right"
+                    android:textSize="18sp"
+                    android:text="0"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/go_on"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

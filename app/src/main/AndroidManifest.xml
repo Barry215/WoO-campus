@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.barry215.woo">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".Main.Application.App"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Main.Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main.Activity.NewsDetailActivity"/>
+        <activity android:name=".Main.Activity.EditActivity"/>
+        <activity android:name=".Main.Activity.PhotoActivity"/>
+        <activity android:name=".Main.Activity.SearchActivity"/>
+        <activity android:name=".Main.Activity.MessageActivity"/>
+        <activity android:name=".Main.Activity.PersonActivity"/>
+        <activity android:name=".Main.Activity.LoginActivity"/>
+        <activity android:name=".Main.Activity.SignUpActivity"/>
+        <activity android:name=".Main.Activity.FindPwdActivity"/>
+        <activity android:name=".Main.Activity.MainActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".Main.Activity.ChooseActivity"/>
+        <activity android:name=".Main.Activity.SettingActivity"/>
+        <activity android:name=".Main.Activity.AboutActivity"/>
+        <activity android:name=".Main.Activity.SelfActivity"/>
+        <activity android:name=".Main.Activity.ChangePwdActivity"/>
+        <activity android:name=".Main.Activity.CommentActivity"/>
+        <activity android:name=".Main.Activity.FindActivity"/>
+        <activity android:name=".Main.Activity.HelpActivity"/>
+        <activity android:name=".Main.Activity.FollowActivity"/>
+        <activity android:name=".Main.Activity.HelperListActivity"/>
+        <activity android:name=".Main.Activity.UserInfoActivity"/>
+        <activity android:name=".Main.Activity.NewsListActivity"/>
+        <activity android:name=".Main.Activity.HelpDetailActivity"/>
+        <activity android:name=".Main.Activity.MessageReadActivity"/>
+        <activity android:name=".Main.Activity.HelpEditActivity"/>
+        <activity android:name=".Main.Activity.ChatActivity" />
+        <activity android:name=".Main.Activity.ModifyNameActivity" />
+        <activity android:name=".Main.Activity.ChooseSchoolActivity" />
+        <activity android:name=".Main.Activity.ChooseCollegeActivity" />
+        <activity android:name=".Main.Activity.ModifyUserInfoActivity" />
+        <activity android:name=".Main.Activity.ModifyEmailActivity" />
+        <activity android:name=".Main.Activity.ModifyAliPayActivity" />
+    </application>
+
+</manifest>

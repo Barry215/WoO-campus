@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search_menu"
+        android:title="@string/search_menu"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/reminder_menu"
+        android:title="@string/message_menu"
+        android:icon="@drawable/ic_notifications"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/set_menu"
+        android:title="@string/set_menu"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:contentInsetStart="40dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleTextAppearance="@style/Toolbar.TitleText">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改名字"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@color/WHITE"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/userNameWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:id="@+id/ed_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:hint="您的名字"
+            android:textSize="18sp"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注意：姓名4-20位，且首位不能是数字"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"/>
+
+</LinearLayout>
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/edit_photo_fullscreen_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#55000000"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="hideInfoPhotoLayout"-->
+    <!--android:focusable="true"-->
+    <!--android:visibility="gone" >-->
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/edit_photo_outer_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:orientation="vertical" >-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/edit_photo_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:background="@drawable/take_picture_layout_round_corner_bg"-->
+    <!--android:orientation="vertical" >-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/take_picture"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="8dp"-->
+    <!--android:text="@string/take_picture"-->
+    <!--android:textColor="@color/TRAN_BLUE"-->
+    <!--android:textSize="20sp" />-->
+
+    <!--<View style="@style/horizontal_divider" >-->
+    <!--</View>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/select_local_picture"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="8dp"-->
+    <!--android:text="@string/select_local_picture"-->
+    <!--android:textColor="@color/TRAN_BLUE"-->
+    <!--android:textSize="20sp" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/edit_photo_layout"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:orientation="vertical" >-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/cancel"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:background="@drawable/video_order_layout_round_corner_bg"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="8dp"-->
+    <!--android:text="@string/cancel"-->
+    <!--android:textColor="@color/TRAN_BLUE"-->
+    <!--android:clickable="true"-->
+    <!--android:onClick="hideInfoPhotoLayout"-->
+    <!--android:textSize="20sp" />-->
+    <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+    <!--</RelativeLayout>-->
+    <!--</RelativeLayout>-->

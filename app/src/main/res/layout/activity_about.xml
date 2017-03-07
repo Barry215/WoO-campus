@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Login_page">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:fitsSystemWindows="true"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/splash_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版本号："
+            android:textSize="20sp"
+            android:textColor="@color/WHITE"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.1.0"
+            android:textSize="20sp"
+            android:textColor="@color/WHITE"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_about"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="开发人员"
+        android:textSize="20sp"
+        android:textColor="@color/WHITE"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_about"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="版本更新"
+        android:textSize="20sp"
+        android:textColor="@color/WHITE"/>
+</LinearLayout>

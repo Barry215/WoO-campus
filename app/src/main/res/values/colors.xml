@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#237cea</color>
+    <color name="colorPrimaryDark">#e21670de</color>
+    <color name="colorAccent">#3498db</color>
+    <color name="TRAN_BLUE">#dc2c95dc</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="SUB_WHITE">#abffffff</color>
+    <color name="SUB_GRAY">#d2e2e2e2</color>
+    <color name="SUB_BLACK">#494949</color>
+    <color name="BLACK">#363636</color>
+    <color name="GRAY">#fd6b6b6b</color>
+    <color name="RED">#cdfd2024</color>
+    <color name="SUB_RED">#cdfd242b</color>
+    <color name="edit_photo_bg_color">#f1f4f2</color>
+    <color name="item_selected_gray">#d9d9d9</color>
+    <color name="Login_page">#4ac7c7</color>
+    <color name="btn_about">#7f34b1b1</color>
+    <color name="Sign_up">#f5943f</color>
+    <color name="YELLOW">#ff9437</color>
+    <color name="GREEN">#1eac21</color>
+
+
+</resources>
